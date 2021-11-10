@@ -1,5 +1,9 @@
 # simpleDDoS
 A REALLY SIMPLE DDOS TOOL
 
-ez to use
+
+```https://github.com/ArchGhost56/simpleDDoS.git```
+
+
+**EZ TO USE**
 
