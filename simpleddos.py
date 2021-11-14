@@ -18,11 +18,11 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet GHOSTOOL-DDOS")
+os.system("figlet DDOS")
 
 print "##################################"
 print "----------*GHOST56*---------------"
-print "##################################"
+print "##########ver####0.1##############"
 
 ip = raw_input("TARGET IP: ")
 port = input  ("PORT     : ")
