@@ -52,4 +52,4 @@ if  ans=="1":
         if port == 65534:
            port = 1
 else:
-SystemExit()
+    exit()
