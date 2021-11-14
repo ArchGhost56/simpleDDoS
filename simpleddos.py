@@ -15,10 +15,10 @@ year = now.year
 ans=True
 while ans:
     os.system("figlet DDOS")
-    print("
+    print("""
    [1].start DDoS
    [2].exit
-   ")
+   """)
 ans=input("Choose:")
 if  ans=="1":
 
