@@ -18,7 +18,7 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet -c DDOS")
+os.system("figlet -t DDOS")
 
 print "##################################"
 print "----------*GHOST56*---------------"
