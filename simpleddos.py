@@ -18,16 +18,8 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-#!/usr/bin/python
-# -*- coding: ascii -*-
-import os, sys
-      
-print "╔═══╦═══╦═══╦═══╗"
-print "╚╗╔╗╠╗╔╗║╔═╗║╔═╗║"
-print "─║║║║║║║║║─║║╚══╗"
-print "─║║║║║║║║║─║╠══╗║"
-print "╔╝╚╝╠╝╚╝║╚═╝║╚═╝║"
-print "╚═══╩═══╩═══╩═══╝"
+os.system("figlet -c DDOS")
+
 print "##################################"
 print "----------*GHOST56*---------------"
 print "##########ver####1.1##############"
