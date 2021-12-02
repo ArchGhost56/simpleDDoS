@@ -18,6 +18,9 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
+#!/usr/bin/python
+# -*- coding: ascii -*-
+import os, sys
       
 print "╔═══╦═══╦═══╦═══╗"
 print "╚╗╔╗╠╗╔╗║╔═╗║╔═╗║"
